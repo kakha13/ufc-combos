@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tag {
+    @apply inline-flex items-center px-2 py-1 text-center text-sm font-semibold text-green-600 bg-green-100 rounded dark:bg-green-600 dark:text-white flex-grow-0;
+}
+
+.tag- {
+    @apply bg-gray-100 text-gray-600 text-lg font-medium px-1 rounded dark:bg-gray-600 dark:text-gray-300 flex-grow ml-auto w-full text-right ; 
+   
+
+}
+
+.tag- button {
+    opacity: 0;
+    background-color: transparent;
+    @apply dark:text-white text-black hover:bg-transparent hover:text-red-400 self-start; 
+}
+
+.tag-:hover button {
+    opacity: 1;
+}
+

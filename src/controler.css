@@ -1153,8 +1153,12 @@ strong {
 }
 
 .ds4 .bumper.right {
+    opacity: 0;
     float: right;
     transform: rotateY(180deg);
+}
+.ds4 .bumper.right.pressed {
+    opacity: 1;
 }
 
 .ds4 .touchpad {
