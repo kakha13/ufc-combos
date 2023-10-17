@@ -1,9 +1,9 @@
 <script setup>
-import Controler from './components/Controler.vue';
 import Form from './components/Form.vue'
+import Combos from './components/Combos.vue';
 </script>
 
 <template>
-  <Controler></Controler>
   <Form></Form>
+  <Combos></Combos>
 </template>

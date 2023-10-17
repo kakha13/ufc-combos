@@ -4081,3 +4081,7 @@ a:active .menu-button {
 .active {
     display: block;
 }
+
+.button:hover {
+    cursor: pointer;
+}

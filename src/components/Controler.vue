@@ -24,7 +24,7 @@
         <div class="abxy">
             <span class="button a Cross" data-key="Cross" data-name="button-1"></span>
             <span class="button b Circle " data-key="Circle" data-name="button-2"></span>
-            <span class="button x Square" data-key="Square" data-name="button-3"></span>
+            <span class="button x Square" emit data-key="Square" data-name="button-3"></span>
             <span class="button y Triangle" data-key="Triangle" data-name="button-4"></span>
         </div>
         <div class="sticks">
