@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute top-0 right-0 bg-gray-200 dark:bg-slate-700 p-2 rounded m-2">
+    <div class="absolute top-0 z-0 right-0 bg-gray-200 dark:bg-slate-700 p-2 rounded m-2">
         <!-- title and toggle button -->
         <div class="flex items-center justify-between mb-2">
             <h3 class="text-lg font-medium text-gray-900 dark:text-white">Combos</h3>

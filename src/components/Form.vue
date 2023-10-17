@@ -235,7 +235,7 @@ onMounted(async () => {
       <div class="fstick" data-name="arcade-stick"></div>
     </div>
 
-    <form class="bg-gray-200 dark:bg-slate-700 p-2 absolute rounded m-2 max-h-full overflow-auto">
+    <form class="bg-gray-200 dark:bg-slate-700 p-2 absolute rounded m-2 max-h-full overflow-auto z-10">
 
       <div class="flex gap-3">
         <button data-collapse-toggle="navbar-hamburger" type="button" @click="open = !open"
