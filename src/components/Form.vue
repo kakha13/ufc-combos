@@ -247,17 +247,17 @@ onMounted(async () => {
               d="M1 1h15M1 7h15M1 13h15" />
           </svg>
         </button>
-        <button type="button" @click="sendKeys()"
+        <a type="button" href="https://github.com/kakha13/ufc-combos" target="_blank"
           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 
           <!-- github icon -->
-          <img src="img/github.svg" class="w-5 h-5"/>
+          <img src="/img/github.svg" class="w-5 h-5"/>
 
           <span class="sr-only">Send</span>
-        </button>
+      </a>
         <button type="button" @click="sendKeys()"
           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-          <img src="img/play.svg" class="w-5 h-5"/>
+          <img src="/img/play.svg" class="w-5 h-5"/>
           
           <span class="sr-only">Send</span>
         </button>
@@ -265,7 +265,7 @@ onMounted(async () => {
           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
           <!-- share svg -->
           
-          <img src="img/share.svg" class="w-5 h-5"/>
+          <img src="/img/share.svg" class="w-5 h-5"/>
           <span class="sr-only">Share</span>
         </button>
       </div>
@@ -354,13 +354,13 @@ onMounted(async () => {
 
           </div>
           <div :class="sharing ? '' : 'hidden'">
-            <button type="button" @click="share()"
+            <a type="button" href="https://github.com/kakha13/ufc-combos" target="_blank"
               class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm py-2 px-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               <!-- share svg -->
               
-              <img src="img/share.svg" class="w-5 h-5"/>
+              <img src="/img/github.svg" class="w-5 h-5"/>
               <span class="ml-2">Share</span>
-            </button>
+          </a>
           </div>
 
         </div>
