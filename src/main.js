@@ -14,18 +14,8 @@ const firebaseApp = initializeApp({
     measurementId: import.meta.env.VITE_measurementId
 });
 
-if (process.env.NODE_ENV === 'production') {
-    import('firebase/analytics')
-        .then(({ getAnalytics }) => {
-            getAnalytics(firebaseApp)
-        })
-        .catch((err) => {
-            console.log('Analytics not loaded', err)
-        })
-}
 
 createApp(App)
-    // install VueFire and provide the firebase app to components
     .use(VueFire, {
         firebaseApp,
         // add modules like VueFireAuth, ...
